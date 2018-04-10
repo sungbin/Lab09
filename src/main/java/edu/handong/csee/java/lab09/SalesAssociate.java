@@ -16,6 +16,4 @@ public class SalesAssociate {
 	public void setSales(double sales) {
 		this.mSales = sales;
 	}
-	
-
 }

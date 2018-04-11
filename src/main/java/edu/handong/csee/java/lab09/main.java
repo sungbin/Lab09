@@ -1,12 +1,19 @@
-package edu.handong.csee.java.lab09;
+package edu.handong.csee.java.lab09; //The file is in this package
 
-public class main {
+/**
+ * This main class call getData, computeStats, displayResults method in SalesReporter class
+ * need SalesReporter class
+ */
+public class main { //declare main class public type
 
-	public static void main(String[] args) {
-		SalesReporter mysale = new SalesReporter();
-		mysale.getData();
-		mysale.computeStats();
-		mysale.displayResults();
+	/**
+	 * this is main method
+	 */
+	public static void main(String[] args) { //main method
+		SalesReporter mysale = new SalesReporter(); //make mysale instance of salesReporter
+		mysale.getData(); //call getDate method
+		mysale.computeStats(); //call computeStats method
+		mysale.displayResults(); //call displayResults method
 
 	}	
 }

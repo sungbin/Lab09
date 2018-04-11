@@ -1,19 +1,37 @@
-package edu.handong.csee.java.lab09;
+package edu.handong.csee.java.lab09; //The file is in this package
 
-public class SalesAssociate {
-	public String mName;
-	public double mSales;
+/**
+ * The class have getter and setter of Name, Sale member variable
+ */
+public class SalesAssociate { //declare public type SalesAssociate class
+	public String mName; //declare member variable
+	public double mSales; //declare member variable
 	
-	public String getName() {
-		return mName;
+	/**
+	 * getter of mName
+	 */
+	public String getName() { //declare public type, return type: String
+		return mName; //return mName value
 	}
-	public void setName(String name) {
-		this.mName = name;
+	
+	/**
+	 * setter of mName
+	 */
+	public void setName(String name) { //declare public type, parameter type :String
+		this.mName = name; //put name value to mName
 	}
-	public double getSales() {
-		return mSales;
+	
+	/**
+	 * getter of mSales
+	 */
+	public double getSales() { //declare public type, return type: double
+		return mSales; //return mSales value
 	}
-	public void setSales(double sales) {
-		this.mSales = sales;
+	
+	/**
+	 * setter of mSales
+	 */
+	public void setSales(double sales) { //declare public type, parameter type: double
+		this.mSales = sales; //put sales value to mSales
 	}
 }

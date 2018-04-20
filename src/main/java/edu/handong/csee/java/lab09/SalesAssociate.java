@@ -7,20 +7,6 @@ public class SalesAssociate { //declare public type SalesAssociate class
 	public String mName; //declare member variable
 	public double mSales; //declare member variable
 	
-	SalesAssociate(String name, double sales){
-		mName = name;
-		sales = mSales;
-	}
-	SalesAssociate(){
-		mName = "";
-		mSales = 0;
-	}
-	SalesAssociate(String name){
-		mName = name;;
-	}
-	SalesAssociate(double sales){
-		sales = mSales;
-	}
 	
 	/**
 	 * getter of mName
